@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Vaziri-Regular;
+  src: url(../assets/Font/Vazir-Regular.woff);
+}
+@font-face {
+  font-family: Vaziri-Medium;
+  src: url(../assets/Font/Vazir-Medium.woff);
+}
+@font-face {
+  font-family: Vaziri-Light;
+  src: url(../assets/Font/Vazir-Light.woff);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Vaziri-Medium;
+}
+
+::-webkit-scrollbar {
+  // display: none;
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #D32F2F;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #B71C1C;
+}
+
